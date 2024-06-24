@@ -15,7 +15,7 @@ const Leftpanel = (props) => {
     <div className={`panel-container ${isSidebarOpen ? "open" : "closed"}`}>
       <div className={`sidebar ${isSidebarOpen ? "open" : "closed"}`}>
         <div
-          className={props.viewMode === "mobile" ? "watchlist-mob" : "watchlist"}
+          className={props.viewMode === "mobile" ? "hrpan-mob" : "hrpan"}
         >
           <div className={props.viewMode === "mobile" ? "head-mob" : "head"}>
             Orange<div className="color">HRM</div>

@@ -5,7 +5,6 @@ import { IoSearchOutline } from "react-icons/io5";
 const Searchbar = ({
   searchTerm,
   onSearchChange,
-  MovieWatchlist,
   onSearchSubmit,
   props,viewMode
 }) => {
@@ -16,19 +15,18 @@ const Searchbar = ({
   };
 
   return (
-    <div className={MovieWatchlist == true ? "search-bar-mov" : "search-bar"}>
+    <div className={"search-bar"}>
       <input
         type="text"
         placeholder="Search"
         value={searchTerm}
         onChange={onSearchChange}
-        onKeyDown={MovieWatchlist == true ? handleKeyDown : null}
-        //className={MovieWatchlist == true ? "input-mov" : "input"}
-        className={(viewMode === "mobile" && !MovieWatchlist) ? "input-mob" : (MovieWatchlist ? "input-mov" : "input")}
+        onKeyDown={ null}
+        className={(viewMode === "mobile" ? "input-mob" :  "input")}
 
       />
       <span
-        className={MovieWatchlist == true ? "search-icon-mov" : "search-icon"}
+        className={"search-icon"}
         onClick={onSearchSubmit}
       >
         <IoSearchOutline />

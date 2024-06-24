@@ -23,13 +23,13 @@ try {
     const existingUser = users?.find((user) => user.email === email);
     if (existingUser) {
       console.log("Logging in with email:", email);
-      if (!existingUser.watchlist) {
-        existingUser.watchlist = [];
+      if (!existingUser.hrPanel) {
+        existingUser.hrPanel = [];
         localStorage.setItem("users", JSON.stringify(users));
       }
       navigate("/", { state: { user: existingUser } });
     } else {
-      const newUser = { email, watchlist: [] };
+      const newUser = { email, hrPanel: [] };
       users.push(newUser);
       localStorage.setItem("users", JSON.stringify(users));
       console.log("New user signed up:", email);
