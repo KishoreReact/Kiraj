@@ -1,0 +1,113 @@
+.login {
+  position: fixed;
+  top: 0px;
+  right: 43px;  
+  border: 1px solid #ccc;
+  width: 17%;
+  border-radius: 4px;
+}
+
+.login-mob {
+  position: fixed;
+  bottom: 25px;
+  border: 1px solid #ccc;
+  width: 25%;
+  border-radius: 4px;
+}
+
+.guest-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+
+.guest-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.guest-text {
+  margin-left: 10px;
+  font-size: 10px;
+  width: 68%;
+}
+.guest-text2 {
+  margin-left: 10px;
+}
+
+.guest-text2-mob{
+  margin-left: 4px;
+  font-size: 12px;
+}
+
+.guest-text-mob {
+  margin-left: 10px;
+  font-size: 10px;
+  width: 50%;
+}
+
+.menu-button {
+  display: flex;
+  background: none;
+  border: none;
+  padding: 2px 7px 7px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.menu-button-mob {
+  display: flex;
+  background: none;
+  border: none;
+  padding: 2px 7px 7px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.menu-popup,
+.login-details-popup {
+  color: #201b18;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* .menu-popup {
+  left: 190px;
+  top: -52px;
+} */
+
+.menu-popup-mob {
+  bottom: 10px;
+}
+
+.login-details-popup {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu-popup ul,
+.login-details-popup form {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-popup li,
+.login-details-popup label,
+.login-details-popup button[type="submit"] {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.menu-popup li:hover,
+.login-details-popup button[type="submit"]:hover {
+  background-color: #f5f5f5;
+}

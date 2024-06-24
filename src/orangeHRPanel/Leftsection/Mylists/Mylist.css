@@ -1,0 +1,33 @@
+
+.mylist {
+  padding: 0;
+  list-style: none;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.menu-item .fa-icon {
+  margin-right: 10px;
+}
+
+.menu-item:hover {
+  background-color: orange;
+  color: white; /* Optional: change text color when highlighted */
+}
+.menu-name{
+  margin: 5px 12px;
+}
+
+

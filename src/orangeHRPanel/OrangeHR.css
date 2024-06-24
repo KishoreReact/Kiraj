@@ -1,0 +1,60 @@
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.left-panel2 {
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.navbar{
+  color: #fff;
+  font-weight: 700;
+  padding:  10px 0px 10px 40px;
+  height: 4%;
+  background-color: #e97313;
+  border-left: 1px solid #ddd;
+}
+
+.navConfig{
+  background-color: #e0e2e3;
+    font-size: 13px;
+    border-radius: 19px;
+    width: fit-content;
+    padding: 12px;
+    margin: 0px 5px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+
+.menuNavbar{
+  color: #fff;
+  font: 700;
+  display: flex;
+  padding:  10px 0px 10px 40px;
+  height: 4%;
+  background-color: #ffff;
+  border-left: 1px solid #ddd;
+}
+
+.left-panel2-mob {
+ 
+  border-left: 1px solid #ddd;
+}
+
+
+.input-log {
+  width: 88%;
+}
+.form-log {
+  display: flex;
+}
+.label-log {
+  display: flex;
+  justify-content: center;
+  color: #f12020;
+}
+
+

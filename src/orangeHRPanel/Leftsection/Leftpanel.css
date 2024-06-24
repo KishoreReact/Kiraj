@@ -1,0 +1,78 @@
+.head {
+  color: #ef0808;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding: 10px 0px 10px 0px;
+  font-family: sans-serif;
+}
+
+.head-mob {
+  color: #ef0808;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  font-size: 21px;
+  padding: 10px 0px 10px 0px;
+  font-family: sans-serif;
+}
+
+
+.panel-container {
+  display: flex;
+  position: relative;
+}
+
+.sidebar {
+  transition: width 0.3s ease;
+  background-color: #fff;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidebar.open {
+  width: 250px; /* Width when the sidebar is open */
+}
+
+.sidebar.closed {
+  width: 0; /* Width when the sidebar is closed */
+}
+
+.watchlist {
+  width: 100%;
+}
+
+.head, .head-mob {
+  font-size: 21px;
+    font-weight: 500;
+    padding: 16px;
+    text-align: center;
+    background-color: #fff;
+    color: #20201f;
+}
+
+.toggle-button {
+  background-color: #ef6508;
+    border-radius: 25px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 12px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+}
+
+.sidebar.closed + .toggle-button {
+  right: 0;
+}
+
+.sidebar.open + .toggle-button {
+  right: 0px; /* Move button to the edge of the sidebar */
+}
+.color{
+  color: #40ab05;
+}
